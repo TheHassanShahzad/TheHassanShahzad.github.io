@@ -3,12 +3,12 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Tom
+first_name: Hassan
 middle_name: R.
-last_name: Name
-email: you@example.com
+last_name: Shahzad
+email: hassan.shahzad.23@ucl.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  The one stop show to find out what ive made, what im making and updates on my professional career.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -19,7 +19,7 @@ icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name 
 
 url: https://TheHassanShahzad.github.io # the base hostname & protocol for your site
 baseurl:
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -47,7 +47,7 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
@@ -78,7 +78,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: # your GitHub user name
+github_username: TheHassanShahzad
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: 1010907 # Inspire HEP author ID
@@ -109,11 +109,11 @@ wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
 x_username: # your X handle
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: hassanportal5865 # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Contact me via email and view my projects working on YouTube
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -133,8 +133,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Robotics in Research # blog_name will be displayed in your blog page
+blog_description: Find out what im finding out. Working you through my design process when finishing a project
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
