@@ -68,7 +68,7 @@ Here is what the PCB rendering looks like:
         {% include figure.liquid loading="eager" path="assets/img/radioROS/pcb_2d.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pcb_3d.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/pcb_3d.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
