@@ -82,4 +82,4 @@ Placing the SMD components was also a hassle as all i have was a pair of blunt t
 
 Right now the board is limited to a simple 6 channel RC receiver and many receivers have totallly different layouts and numbers of channels. Ideally the board should be able to support a number of protocols like SBUS and PPM however SBUS has several drawbacks as each company like Futaba have their own propietary software. PPM is also a 1 wire communication but like SBUS not all receivers support it.
 
-Also i would like to have a python package support and most importantly C++ drivers to make the code run far more efficiently
+Also i would like to have a python package support and most importantly C++ drivers to make the code run far more efficiently.
