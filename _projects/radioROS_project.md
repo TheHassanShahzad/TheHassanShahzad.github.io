@@ -58,7 +58,7 @@ The PCB was designed using EasyEDA and JLCPCB to manufacture the PCB's. The sche
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/radioROS/schematic.png" class="img-fluid rounded z-depth-1" zoomable=true style="max-width: 50%; height: auto;%}
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/schematic.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
