@@ -2,8 +2,8 @@
 layout: page
 title: radioROS
 description: A Universal Robot controller using an RC transmitter
-img: assets/img/ex1.jpg
-importance: 2
+img: assets/img/radioROS/type_c_side.jpg
+importance: 1
 category: work
 ---
 
@@ -11,25 +11,25 @@ radioROS is my solution to controlling mobile robots in simlation and in real li
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/switch_side.jpg" title="radioROS" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/top_down.jpg" title="radioROS" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/type_c_side.jpg" title="radioROS" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Different Angles of radioROS.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/full.jpg" title="radioROS" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-   Images of radioROS from different angles
+   Receiver plugged into the female header pins 
 </div>
 
 ## How it works
@@ -51,6 +51,31 @@ ros2 run radioROS pwm_to_twist --ros-args -p max_linear_speed:=0.25 -p max_angul
 ```
 
 A Twist message is a common message type that mobile robots use to move around in the world. It consists of 2 3x1 vectors representing linear velocity along the x,y,x axis and another vector for the rotational velocity. For a simple 2 wheeled robot is only needs a linear.x and angular.z since by convention in ROS, robots face the X-axis and the Z-axis faces upwards. the rest can be set to 0. The `pwm_to_twist` node just takes in the receiver data and utillises channel 1 and 2 to then control a simple 2 wheeled robot.
+
+
+## PCB design
+The PCB was designed using EasyEDA and JLCPCB to manufacture the PCB's. The schematic was fairly easy to design and i tried using as many easily available parts as possible
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/schematic.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+Here is what the PCB rendering looks like:
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/pcb_2d.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/pcb_3d.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+## SMD soldering
+The soldering was done using a stencil also provided by JLCPCB and a mini hot plate. I used a 138 degree celcius solder paste and after a few tries i got it working properly. I found that you have to reduce the stencil shaking as much as possible else the solder paste will smudge leading to more manual work needing to be done to fix the solder bridges. 
+
+Placing the SMD components was also a hassle as all i have was a pair of blunt tweezers but ideally i would have a pedal assisted suction pump. 
 
 ## Future Improvements
 
