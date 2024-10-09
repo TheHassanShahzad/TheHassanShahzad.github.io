@@ -41,12 +41,13 @@ The second benefit of the ESP32-S3 is the built in programmer which reduces the 
 ## General use with ROS2
 
 The board has a <a href="https://github.com/TheHassanShahzad/radioROS">ROS2 driver package</a> to support its use. The package currently contains 2 nodes but more can easily be added based on your use case. The first node to always run is the `pwm_publisher` node. Optional paramaters are `serial_port` and it publishes each channels pwm value from roughly 1000-2000 (depending on how your transmitter is setup) to the topic `receiver_data`. The default paramater for serial port is `/dev/ttyUSB0` but i often find myself changing it to `/dev/ttyACM0` depending on the computer. You can change the with:
-```liquid
+```bash
 ros2 run radioROS pwm_publisher --ros-args -p serial_port:=/dev/ttyACM0
 ```
 
 The second node is `pwm_to_twist` which publishes a twist message based on the data received from `receiver_data` topic. Optional paramaters are `max_linear_speed` (default is 1 m/s), `max_angular_speed` (default is 1 rad/s) and `topic` (default is 'cmd_vel'). You can change the paramaters with a command similar to:
-```liquid
+```bash
 ros2 run radioROS pwm_to_twist --ros-args -p max_linear_speed:=0.25 -p max_angular_speed:=0.02 -p topic:=/robot/cmd_vel
 ```
 
+A Twist message is a common message type that mobile robots use to move around in the world. It consists of 2 3x1 bector representing linear velocity along the x,y,x axis and another vector for the rotational velocity. For a simple 2 wheeled robot is only needs a linear.x and angular.z since by convention in ROS, robots face the X-axis and the Z-axis faces upwards. the rest can be set to 0. The `pwm_to_twist` node just takes in the receiver data and utillises channel 1 and 2 to then control a simple 2 wheeled robot.
