@@ -11,13 +11,13 @@ radioROS is my solution to controlling mobile robots in simlation and in real li
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/radioROS/switch_side.jpg" title="radioROS" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/switch_side.jpg" title="radioROS" class="img-fluid rounded z-depth-1" zoomable=true  %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/radioROS/top_down.jpg" title="radioROS" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/top_down.jpg" title="radioROS" class="img-fluid rounded z-depth-1" zoomable=true  %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/radioROS/type_c_side.jpg" title="radioROS" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/radioROS/type_c_side.jpg" title="radioROS" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
