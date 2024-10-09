@@ -50,4 +50,10 @@ The second node is `pwm_to_twist` which publishes a twist message based on the d
 ros2 run radioROS pwm_to_twist --ros-args -p max_linear_speed:=0.25 -p max_angular_speed:=0.02 -p topic:=/robot/cmd_vel
 ```
 
-A Twist message is a common message type that mobile robots use to move around in the world. It consists of 2 3x1 bector representing linear velocity along the x,y,x axis and another vector for the rotational velocity. For a simple 2 wheeled robot is only needs a linear.x and angular.z since by convention in ROS, robots face the X-axis and the Z-axis faces upwards. the rest can be set to 0. The `pwm_to_twist` node just takes in the receiver data and utillises channel 1 and 2 to then control a simple 2 wheeled robot.
+A Twist message is a common message type that mobile robots use to move around in the world. It consists of 2 3x1 vectors representing linear velocity along the x,y,x axis and another vector for the rotational velocity. For a simple 2 wheeled robot is only needs a linear.x and angular.z since by convention in ROS, robots face the X-axis and the Z-axis faces upwards. the rest can be set to 0. The `pwm_to_twist` node just takes in the receiver data and utillises channel 1 and 2 to then control a simple 2 wheeled robot.
+
+## Future Improvements
+
+Right now the board is limited to a simple 6 channel RC receiver and many receivers have totallly different layouts and numbers of channels. Ideally the board should be able to support a number of protocols like SBUS and PPM however SBUS has several drawbacks as each company like Futaba have their own propietary software. PPM is also a 1 wire communication but like SBUS not all receivers support it.
+
+Also i would like to have a python package support and most importantly C++ drivers to make the code run far more efficiently
