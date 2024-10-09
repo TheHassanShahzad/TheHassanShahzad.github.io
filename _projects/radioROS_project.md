@@ -23,6 +23,13 @@ radioROS is my solution to controlling mobile robots in simlation and in real li
 <div class="caption">
     Different Angles of radioROS.
 </div>
+
+
+## How it works
+radioROS is built using an ESP32-S3 and a TGY-iA6. The ESP32-S3 has 2 notable features: it is a dual core microcontroller and it has a built in programmer. The first is crucial because the mcu uses both cores to run tasks in parallel. The first task is to read the PWM input from each receiver pin using hardware interrupts and the second task prints the data to the serial monitor every 100ms however the frequency can be increased depending on the demands of your system. Mutex is used to make sure that both cores do not try to write to the data at the same time. Lastly the data is sent using a start and stop byte to make suere the stream of data is not read incorrectly.
+
+The second benefit of the ESP32-S3 is the built in programmer which reduces the need for a CP2102 USB to UART bridge. On the board theres a few components like a robust 3.3V regulator, flyback diodes to prevent corruption on the data lines, a USB type-C connector to stay with the times and external channel pins incase the receiver that the person has is not compatible with the radioROS style receiver input. Theres also a SPDT switch so that you can pair the receiver while its connected to the module and not have to unplug it, find female header pins and bind manually. 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/radioROS/full.jpg" title="radioROS" class="img-fluid rounded z-depth-1" %}
@@ -31,12 +38,6 @@ radioROS is my solution to controlling mobile robots in simlation and in real li
 <div class="caption">
    Receiver plugged into the female header pins 
 </div>
-
-## How it works
-radioROS is built using an ESP32-S3 and a TGY-iA6. The ESP32-S3 has 2 notable features: it is a dual core microcontroller and it has a built in programmer. The first is crucial because the mcu uses both cores to run tasks in parallel. The first task is to read the PWM input from each receiver pin using hardware interrupts and the second task prints the data to the serial monitor every 100ms however the frequency can be increased depending on the demands of your system. Mutex is used to make sure that both cores do not try to write to the data at the same time. Lastly the data is sent using a start and stop byte to make suere the stream of data is not read incorrectly.
-
-The second benefit of the ESP32-S3 is the built in programmer which reduces the need for a CP2102 USB to UART bridge. On the board theres a few components like a robust 3.3V regulator, flyback diodes to prevent corruption on the data lines, a USB type-C connector to stay with the times and external channel pins incase the receiver that the person has is not compatible with the radioROS style receiver input. Theres also a SPDT switch so that you can pair the receiver while its connected to the module and not have to unplug it, find female header pins and bind manually. 
-
 
 ## General use with ROS2
 
