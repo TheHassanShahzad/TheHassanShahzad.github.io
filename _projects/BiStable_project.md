@@ -6,12 +6,13 @@ img: assets/img/BiStable/best.jpg
 importance: 1
 category: work
 ---
-
-<div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="https://www.youtube.com/embed/ZrFPCvi1gjE" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="https://www.youtube.com/embed/3EUwUBnoxQQ" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/ZrFPCvi1gjE" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/3EUwUBnoxQQ" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 For my Year 1 undergarduate course we were assigned as a group to make anything related to electronics for our 2nd term end of module project. While we could have gotten away with connecting a few sensors to a MCU and gotten a high mark, we collectively decided to make something that pushed our abilities greatly and led us to making something that at the time we werent sure how to make.
@@ -21,6 +22,12 @@ We said, let's make a 2 wheeled self balncing robot that not only utillized cont
 This project was made start to finish in around 2 weeks so for the time constraints of the project, we were all very happy with what was achieved
 
 Anyway lets get into what the robot was composed of and technical challenges faced
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/BiStable/best.jpg" title="BiStable" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 # The Robots Hardware
 #### The Robot included the following components:
@@ -41,14 +48,29 @@ The Raspberry Pi was responsible for running ROS2, connecting to the gamepad and
 
 The ESP32 was the MCU responsible for stabillising the robot by reading data from the MPU6050, driving the stepper motors and writing to EEPROM
 
-The stepper motors were used as it has high accuracy and precision while being sensorless however velocity control was found challenging while trying to execute code in the same loop. For more info fo to the section called `main challenges`
+The stepper motors were used as it has high accuracy and precision while being sensorless however velocity control was found challenging while trying to execute code in the same loop. For more info fo to the section called `main problems faced`
 
 Aside from that was the stepper drivers and basic electronic components like the MPU6050 IMU which is a popular choice for projects requiring an IMU, step down converters capable of supplying enough current and an EEPROM chip for saving the PID gains without needing to retune every time the robot is turned on. Information about the PID and robots inclination is found using the OLD display
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Bistable/battery_wiring" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Bistable/component_wiring.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 For the spine of the robot we went with 2020 alumnium due to its abillity to easily mount and re-arrange components rapidly. This meant we could quickly begin programming the robot without worrying too much on the CAD itself or wasting time having to re-print parts
 
 # How everything worked
 ## The ROS side
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/BiStable/ros_architecture.jpg" title="BiStable" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 I want to start with the ROS side of things because before the MCU even knows how to stabillise, it needs to receive a message from the RPi telling it what angle it should be at and its rotational velocity
 
 The robot has 4 packages that each serve a different purpose:
