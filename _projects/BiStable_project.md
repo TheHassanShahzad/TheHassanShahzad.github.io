@@ -54,10 +54,10 @@ Aside from that was the stepper drivers and basic electronic components like the
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Bistable/battery_wiring" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Bistable/battery_wiring.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Bistable/component_wiring.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Bistable/component_wiring.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -67,7 +67,7 @@ For the spine of the robot we went with 2020 alumnium due to its abillity to eas
 ## The ROS side
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/BiStable/ros_architecture.jpg" title="BiStable" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/BiStable/ros_architecture.png" title="BiStable" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
