@@ -69,17 +69,17 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "ROS2 Level 1",
+      "date": "2023-11-10",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/course/ros2-for-beginners/",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "ROS2 Level 2",
+      "date": "2024-01-15",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/course/ros2-tf-urdf-rviz-gazebo/",
       "icon": "fa-solid fa-tag"
     },
     {
