@@ -6,13 +6,12 @@ img: assets/img/BiStable/best.jpg
 importance: 1
 category: work
 ---
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/ZrFPCvi1gjE" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/3EUwUBnoxQQ" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="https://www.youtube.com/embed/ZrFPCvi1gjE" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="https://www.youtube.com/embed/3EUwUBnoxQQ" class="img-fluid rounded z-depth-1" %}
 </div>
 
 For my Year 1 undergarduate course we were assigned as a group to make anything related to electronics for our 2nd term end of module project. While we could have gotten away with connecting a few sensors to a MCU and gotten a high mark, we collectively decided to make something that pushed our abilities greatly and led us to making something that at the time we werent sure how to make.
