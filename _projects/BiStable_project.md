@@ -8,10 +8,10 @@ category: work
 ---
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/ZrFPCvi1gjE?si=W7Y3L9BpkobwbSJA" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://www.youtube.com/embed/ZrFPCvi1gjE" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/3EUwUBnoxQQ?si=jvdR7wPOpln1QfOp" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://www.youtube.com/embed/3EUwUBnoxQQ" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
