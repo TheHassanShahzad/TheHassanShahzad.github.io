@@ -2,7 +2,7 @@
 layout: page
 title: TreeRunner
 description: A Tree Climbing robot capable of Branch Avoidance
-img: assets/img/TreeRunner/best.jpg
+img: assets/img/TreeRunner/linear_down.png
 importance: 3
 category: work
 ---
@@ -32,9 +32,9 @@ Each servo had a gear attached to it and another gear with a 1:1 ratio. This mea
 Each gripper was attached to the servo using a metal circular servo horn and thread inserts pushed in with a soldering iron. This ensured the grippers were attached firmly to the servo and would not slip when the servos were stalling. Stalling the servos turned out not to be a good idea in the long run which I will discuss more later on.
 
 
-<div class="col-sm mt-3 mt-md-0">
+<!-- <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/TreeRunner/tri_prong.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
-</div>
+</div> -->
 
 
 Each gripper had 3 fingers which intersected to handle pipes of varying diamter and increase the contact surface area between he gripper and the tree. Becuase printing the piece with 2 prongs would require a lot of supprt and if it needed some changing in the futre, we would have to re print the entire part, I decided to split it into 3 section. The middle section securing the top and bottom prong together. Thread inserts were again used to fasten everything together. Sillicone rubber strips were used that we laser cut and then super glued to the grippers once our design was complete.
