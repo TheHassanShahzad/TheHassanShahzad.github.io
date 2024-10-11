@@ -2,7 +2,7 @@
 layout: page
 title: TreeRunner
 description: A Tree Climbing robot capable of Branch Avoidance
-img: assets/img/TreeRunner/linear_down.png
+img: assets/img/TreeRunner/rendred_front.jpg
 importance: 3
 category: work
 ---
@@ -28,12 +28,25 @@ The grippers each used powerful `MG996R` servos providing the grippers high torq
 
 Each servo had a gear attached to it and another gear with a 1:1 ratio. This meant that the gripper could open in a symmetric motion and not rely on 2 servos. At first i was worried if the gear would be strong enough but they definitely were. For added strength we just increased the height of the gearts which also increased the surface area of the contact points spreading the load. Bearings were used on the child gear to reduce contact friction and let the gears spin more easily.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TreeRunner/closed.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TreeRunner/open.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
 
 Each gripper was attached to the servo using a metal circular servo horn and thread inserts pushed in with a soldering iron. This ensured the grippers were attached firmly to the servo and would not slip when the servos were stalling. Stalling the servos turned out not to be a good idea in the long run which I will discuss more later on.
 
 
-<div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/TreeRunner/tri_prong.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TreeRunner/tri_prong.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TreeRunner/tri_prong_side.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
 </div>
 
 
@@ -74,6 +87,15 @@ The rotating mechanism was on the biggest CAD design problems faced because i di
 - PCB Screw terminals
 - DIP switches
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TreeRunner/full.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TreeRunner/opened.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
+
 The `Seeeduino xiao` was used for its small compact design and easy programming with the Arduino IDE. Although it had just enough GPIO pins, i would say it was still an overkill choice but since the lab was giving them i thought its best to use them for the project. 
 
 The L293D is a dual channel H-bridge motor driver but since we have 1 DC motor with current draw requirements higher than what the chip itself can give, I thought why not tie the channels together and double the max current draw. This seemed to work without any problems. If you are wondering why not use a diffrent driver with higher current capabillities, it was what the lab had that was light weight. Other options was a bulky L298N which the robot had no need for and no space.
@@ -85,5 +107,17 @@ The PCB screw terminals made wiring the encoder, motor, power supply and I2C com
 Finally the DIP switches and male header pins were for mode selection and connecting to the servos respectively.
 
 
+# Pictures of the Robot
 
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/TreeRunner/side.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+</div>
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TreeRunner/long_side.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TreeRunner/tree.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
