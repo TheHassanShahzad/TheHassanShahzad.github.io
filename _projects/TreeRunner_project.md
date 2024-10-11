@@ -2,7 +2,7 @@
 layout: page
 title: TreeRunner
 description: A Tree Climbing robot capable of Branch Avoidance
-img: assets/img/TreeRunner/rendred_front.jpg
+img: assets/img/TreeRunner/rendered_front.jpg
 importance: 3
 category: work
 ---
