@@ -1,7 +1,7 @@
 github_users:
   - TheHassanShahzad
 
-repo_description_lines_max: 3
+repo_description_lines_max: 4
 
 github_repos:
   - TheHassanShahzad/radioROS
@@ -9,6 +9,7 @@ github_repos:
   - TheHassanShahzad/OpenBase2
   - TheHassanShahzad/AetherSync
   - TheHassanShahzad/TreeRunner
+  - TheHassanShahzad/RoboPipe
   - TheHassanShahzad/ESP8266_MQTT_Lamp
   - TheHassanShahzad/ShortOnTime
 
