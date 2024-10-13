@@ -2,7 +2,7 @@
 layout: page
 title: RoboPipe
 description: Control Simulated Robot Arms with just a Hand and a Laptop Webcam
-img: assets/img/RoboPipe/best.jpg
+img: assets/img/RoboPipe/palm_total.jpg
 importance: 2
 category: work
 ---
@@ -85,7 +85,7 @@ One node called `z_sine` publishes messages on the `target_positions` to move th
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/funk1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/funk1.MP4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/funk2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
