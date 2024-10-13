@@ -47,7 +47,7 @@ Instead i decided to write a custom node to handle odometry and publish it to `/
 
 To make this code even easier, i just set the `base_link` to be the centre of the wheels axis of rotation and not the centre of the robot itself which would have been another unecessary translation. 
 
-The only transform needed would be how the base_link maps to the centre of the lidar which was easily calculated in CAD.
+The only transform needed would be how the `base_link` maps to the centre of the lidar which was easily calculated in CAD.
 
 After updating the URDF file to encompass these changes I was left with a bare bones basic urdf where the entire mesh of the robot was one file and the collision avoidance was a rectangular block to speed up navigation. 
 
