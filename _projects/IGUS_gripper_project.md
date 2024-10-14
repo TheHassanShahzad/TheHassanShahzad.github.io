@@ -63,10 +63,22 @@ I used Fusion360 to CAD up the gripper design. As we were constrained by time, i
 There was an IGUS step file which i imported into Fusion 360 and then i modelled 4 parts to fit everything together:
 
 # Pictures of the gripper
-<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2142.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2142.jpg" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2143.jpg" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2144.jpg" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
+<!-- <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2142.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2143.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2144.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2153.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-</swiper-container>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2154.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2155.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container> -->
