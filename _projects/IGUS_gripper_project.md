@@ -74,11 +74,47 @@ There was an IGUS step file which i imported into Fusion 360 and then i modelled
         {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2144.jpg" class="img-fluid rounded z-depth-1 zoomable=true" %}
     </div>
 </div>
-<!-- <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2142.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2143.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2144.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2153.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2154.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2155.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-</swiper-container> -->
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2152.jpg" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2154.jpg" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/IMG_2155.jpg" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
+
+# The OpenCV and MediaPipe Code
+Google MediaPipe was used to track the joints of the hand 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/RoboPipe/diagram.png" title="BiStable" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
+
+Based on angle between the lines 0-4 and 0-8, we map that value to 0 and 1. This angle requires an `upper_bound` and `lower_bound` to map the angle to a float between 0 and 1. The lower bound is simply a value close to 0 but the upper bound is the angle that the user feels comfortable going to when fully opening the gripper
+
+## Why angles and not distance?
+Angles is a better choice than the distance between the tips because it works irrespective of how far the hand is from the camera. When the hand is closer to the camera then the distance would appear bigger however the angle remains so. 
+
+# Communication between the laptop and the gripper
+As we originally intended to use microROS to control the gripper but the plan fell through after ROS2 was not ready for the arm. This meant we had to try communication from scratch.
+
+After a bit of research we found a python library which handles serial communication and seemed to be bery popular. That was `pyserial`
+
+We used `pyserial` to transmit the angle the servo should move to and on the esp32 we just moved the servo to that angle
+
+Honestly the code was very simple however the plan was to utillise the load cell and achieve active compliancy. Unfortunately the lab there only had the load cell but not the load cell amplifier so our plans with it fell short
+
+We were meant to have a way that the hand could appear to twist a knob in order to increase or decrease the force the gripper applies with objects. This would mean the gripper is suitable for picking up sensitive objects and stiffer objects with ease.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/IGUS_gripper/testing_gripper.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/IGUS_gripper/making_gripper.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
