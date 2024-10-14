@@ -6,6 +6,18 @@ img: assets/img/IGUS_gripper/IMG_2144.jpg
 importance: 2
 category: work
 ---
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/IGUS_gripper/daff5f65-d0ad-4090-a54c-347d302116c4.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+</div>
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/IGUS_gripper/ead120fe-3ad0-4e54-b357-b9dee3c712df.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+</div>
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/IGUS_gripper/350ed8b5-eb1b-4b8c-95f5-0c42ed70bcda.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+</div>
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/IGUS_gripper/9110681b-e122-482e-b400-0960f8f5859d.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+</div>
 
 I took part in the Smart Green makeathon in 2023 with a few other classmates from my course and we worked together on a project that we believed would be beneficial for the future of human robot interaction.
 
