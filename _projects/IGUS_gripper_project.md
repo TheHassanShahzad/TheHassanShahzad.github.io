@@ -12,12 +12,6 @@ category: work
 <div class="col-sm mt-3 mt-md-0">
     {% include video.liquid path="assets/video/IGUS_gripper/ead120fe-3ad0-4e54-b357-b9dee3c712df.mp4" class="img-fluid rounded z-depth-1" controls=true %}
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="assets/video/IGUS_gripper/350ed8b5-eb1b-4b8c-95f5-0c42ed70bcda.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-</div>
-<div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="assets/video/IGUS_gripper/9110681b-e122-482e-b400-0960f8f5859d.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-</div>
 
 I took part in the Smart Green makeathon in 2023 with a few other classmates from my course and we worked together on a project that we believed would be beneficial for the future of human robot interaction.
 
@@ -73,6 +67,23 @@ Having the robot be actibely compliant through means of current sensing, force s
 I used Fusion360 to CAD up the gripper design. As we were constrained by time, i decided not to go with the typical method of measuring very distance and modelling the gripper but instead i imported the servo and sketch out lines/rectanges to fit the shape of the servo. I gauged how much offset i should add and i must say this approach was risky given the printing itself would take a day so any re-designing would mean the gripper would not be finished in time.
 
 There was an IGUS step file which i imported into Fusion 360 and then i modelled 4 parts to fit everything together:
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/Screenshot 2024-10-14 142403.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/Screenshot 2024-10-14 142604.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/Screenshot 2024-10-14 142548.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/Screenshot 2024-10-14 142439.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
 
 # Pictures of the gripper
 <div class="row mt-3">
@@ -129,4 +140,12 @@ We were meant to have a way that the hand could appear to twist a knob in order 
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/IGUS_gripper/making_gripper.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
+</div>
+
+# More videos
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/IGUS_gripper/350ed8b5-eb1b-4b8c-95f5-0c42ed70bcda.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+</div>
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/IGUS_gripper/9110681b-e122-482e-b400-0960f8f5859d.mp4" class="img-fluid rounded z-depth-1" controls=true %}
 </div>
