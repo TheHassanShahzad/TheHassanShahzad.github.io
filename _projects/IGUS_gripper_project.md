@@ -72,12 +72,6 @@ There was an IGUS step file which i imported into Fusion 360 and then i modelled
         {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/Screenshot 2024-10-14 142403.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/Screenshot 2024-10-14 142604.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
-    </div>
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/IGUS_gripper/Screenshot 2024-10-14 142548.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
