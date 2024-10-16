@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: After what money can't buy
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second-year undergraduate student studying Robotics and Artificial Intelligence at University College London (UCL). I have worked on various personal projects, which you can explore in the `projects` section of this website. My expertise and interests focus on developing **autonomous mobile robots**, leveraging **ROS** and several packages related to **SLAM** and robot **navigation**. Currently, I am working on projects that integrate **large language models (LLMs)** to enhance robots' understanding of the world and enable more natural, human-like interactions
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In addition to my focus on robotics, I am proficient in a variety of programming languages, including **Python** and **C++**, and I frequently use tools like **ROS2**, **PyBullet**, and **Fusion 360** for both simulation and hardware development. I enjoy working collaboratively and am looking to work on more team projects where different people's skill sets can be leveraged to create even better robots.
+
+I am also looking for individuals with experience in **manufacturing**, **PCB design**, and **media** to connect and collaborate on future projects. If you have expertise in these areas, feel free to reach out!
