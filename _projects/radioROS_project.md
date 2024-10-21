@@ -7,6 +7,10 @@ importance: 1
 category: work
 ---
 
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/IMG_5111.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+</div>
+    
 radioROS is my solution to controlling mobile robots in simlation and in real life. Built upon the ROS2 framework, it allows for universal compatibillity with all robots ported to ROS. This was made catered to researchers and during the testing stage for robots to save time having to setup a robust controller that works over the internet when testing the robot outdoors. Alternatively the popular choice is to remote SSH into the computer and control it but with an unstable/weak WiFi proves this method to be very limited and dangerous
 
 <div class="row">
