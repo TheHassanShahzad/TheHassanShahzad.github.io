@@ -93,7 +93,7 @@ To update the robot's odometry and execute motion commands, I used **ROS2_contro
 ### **microROS Integration**
 Typically, robots require custom hardware components and protocols for communication with ROS2_control. However, I opted for **microROS**, which simplifies communication by enabling microcontrollers to act as ROS nodes. 
 
-Using an **ESP32** running microROS:
+Using an **Seeeduino XIAO** running microROS:
 - The microcontroller can **publish** and **subscribe** to ROS topics like any internal node on the main computer.
 - An additional node acts as a **translator**, converting the JointState messages to `Float64MultiArray` messages, which contain only the essential data needed by the Seeeduino Xiao.
 
