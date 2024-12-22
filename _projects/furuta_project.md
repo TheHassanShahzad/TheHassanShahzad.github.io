@@ -3,7 +3,7 @@ layout: page
 title: Furuta Pendulum
 description: LQR control of a Furuta Pendulum in Gazebo
 img: assets/img/furuta/upright.png
-importance: 3
+importance: 2
 category: work
 ---
 

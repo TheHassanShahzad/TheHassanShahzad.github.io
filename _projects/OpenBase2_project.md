@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OpenBase2
-description: A Robust Low-Cost Autonomous robot built from a Hoverboard
+description: A Robust Low-Cost Autonomous Robot built from a Hoverboard
 img: assets/img/OpenBase2/openbase2.jpg
 importance: 1
 category: work
