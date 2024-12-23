@@ -4,7 +4,7 @@ title: a custom gripper for the IGUS robot arm
 description: ade at the SMart Green makeathon in Gran Canaria with the aim to control an industrial robot arm with nothing but your hands and a laptop webcam
 img: assets/img/IGUS_gripper/IMG_2144.jpg
 importance: 2
-category: work
+category: Competition
 ---
 <div class="col-sm mt-3 mt-md-0">
     {% include video.liquid path="assets/video/IGUS_gripper/daff5f65-d0ad-4090-a54c-347d302116c4.mp4" class="img-fluid rounded z-depth-1" controls=true %}

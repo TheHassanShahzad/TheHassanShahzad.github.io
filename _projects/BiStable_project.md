@@ -4,7 +4,7 @@ title: BiStable
 description: A 2 wheeled self-balancing hand following and RC ROS2 robot
 img: assets/img/BiStable/best.jpg
 importance: 1
-category: work
+category: School
 ---
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
