@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: After what money can't buy
+subtitle: 
 
 profile:
   align: right
