@@ -8,14 +8,9 @@
     "url": "https://TheHassanShahzad.github.io",
     "summary": "here is my summary",
     "location": {
-      "address": "55 Maryland Road",
-      "postalCode": "E15 1JL",
-      "city": "London",
-      "countryCode": "UK",
-      "region": "Newham"
+      "city": "London"
     },
-    "profiles": [
-    ]
+    "profiles": []
   },
   "education": [
     {
@@ -27,7 +22,9 @@
       "startDate": "2023-01-06",
       "endDate": "2027-01-06",
       "score": "79.7",
-      "courses": ["Robotics and Artificial Intelligence"]
+      "courses": [
+        "Robotics and Artificial Intelligence"
+      ]
     },
     {
       "institution": "Altrincham Grammar School For Boys",
@@ -36,7 +33,12 @@
       "studyType": "A-Level",
       "startDate": "2021-01-06",
       "endDate": "2023-01-06",
-      "courses": ["Maths", "Further Maths", "Physics", "Computer Science"]
+      "courses": [
+        "Maths",
+        "Further Maths",
+        "Physics",
+        "Computer Science"
+      ]
     },
     {
       "institution": "Altrincham Grammar School For Boys",
@@ -45,9 +47,19 @@
       "studyType": "GCSE",
       "startDate": "2018-01-06",
       "endDate": "2021-01-06",
-      "courses": ["Maths", "Further Maths", "Physics", "Computer Science", "Electronics", "Chemsistry", "Biology", "Chinese", "English Language", "English Literature"]
+      "courses": [
+        "Maths",
+        "Further Maths",
+        "Physics",
+        "Computer Science",
+        "Electronics",
+        "Chemsistry",
+        "Biology",
+        "Chinese",
+        "English Language",
+        "English Literature"
+      ]
     }
-  
   ],
   "work": [
     {
@@ -57,13 +69,13 @@
       "startDate": "2023-07-10",
       "endDate": "2027-06-01",
       "summary": "Managed the shop floor and helped customers with their shopping",
-      "highlights": ["Sales"]
+      "highlights": [
+        "Sales"
+      ]
     }
   ],
-  "volunteer": [
-  ],
-  "awards": [
-  ],
+  "volunteer": [],
+  "awards": [],
   "certificates": [
     {
       "name": "ROS2 Level 1 - Publishers, Subscribers, Launch files, Python, C++",
@@ -101,8 +113,7 @@
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
-  ],
+  "publications": [],
   "skills": [
     {
       "name": "ROS2",
@@ -152,7 +163,7 @@
       "fluency": "Proficient",
       "icon": ""
     },
-     {
+    {
       "language": "Chinese",
       "fluency": "Proficient",
       "icon": ""
@@ -189,26 +200,31 @@
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Harris Ramos",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Hassan is a passionate and hardworking individual. He has made many advances in Robotics and Artifical Intelligence"
-    }
-  ],
   "projects": [
     {
       "name": "OpenBase2",
       "summary": "A low-cost Open Source ROS2 robot for autonomous navigation based on hoverboard brushless motors and an RGBD camera",
-      "highlights": ["Nav2", "slam_toolbox", "custom urdf", "rtabmap", "sensor fusion"],
+      "highlights": [
+        "Nav2",
+        "slam_toolbox",
+        "custom urdf",
+        "rtabmap",
+        "sensor fusion"
+      ],
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
-      "url": "https://thehassanshahzad.github.io"
+      "url": "https://thehassanshahzad.github.io/projects/OpenBase2_project"
     },
     {
       "name": "BiStable",
       "summary": "A self-balancing ROS2 robot with hand tracking. Based on a Raspberry Pi 4, ESP32 and MPU-6050",
-      "highlights": ["ROS2", "control systems", "PID", "OpenCV", "System ENgineering"],
+      "highlights": [
+        "ROS2",
+        "control systems",
+        "PID",
+        "OpenCV",
+        "System ENgineering"
+      ],
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
       "url": "https://thehassanshahzad.github.io/projects/BiStable_project/"
@@ -216,7 +232,13 @@
     {
       "name": "A24",
       "summary": "A platform to teach myself robot navigation on a custom robot. Going from simulation to real life",
-      "highlights": ["Nav2", "slam_toolbox", "custom urdf", "2D-Lidar", "encoder odometry"],
+      "highlights": [
+        "Nav2",
+        "slam_toolbox",
+        "custom urdf",
+        "2D-Lidar",
+        "encoder odometry"
+      ],
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
       "url": "https://thehassanshahzad.github.io/projects/A24_project/"
@@ -224,7 +246,13 @@
     {
       "name": "RoboPipe",
       "summary": "Control a simulated robot arm with just a hand. Uses OpenV, Google MediaPipe, ROS2 and PyBullet",
-      "highlights": ["OpenCV", "PyBullet", "Robot Simulation", "ROS2", "Google MediaPipe"],
+      "highlights": [
+        "OpenCV",
+        "PyBullet",
+        "Robot Simulation",
+        "ROS2",
+        "Google MediaPipe"
+      ],
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
       "url": "https://thehassanshahzad.github.io/projects/RoboPipe_project/"
@@ -232,7 +260,13 @@
     {
       "name": "radioROS",
       "summary": "A custom universal robot controller for mobile robots using an RC transmitter",
-      "highlights": ["EasyEDA", "custom PCB design", "SMD soldering", "Prodouct Design", "Robot Communication"],
+      "highlights": [
+        "EasyEDA",
+        "custom PCB design",
+        "SMD soldering",
+        "Prodouct Design",
+        "Robot Communication"
+      ],
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
       "url": "https://thehassanshahzad.github.io/projects/radioROS_project/"
