@@ -6,7 +6,7 @@
     "email": "hassan.shahzad.23@ucl.ac.uk",
     "phone": "+447918800632",
     "url": "https://TheHassanShahzad.github.io",
-    "summary": "here is my summary",
+    "summary": "I am a Full Stack Roboticist passionate about Mobile Robots, SLAM, Augemented Reality and Fluid Human Computer Interaction",
     "location": {
       "city": "London"
     },
@@ -145,28 +145,17 @@
         "EasyEDA",
         "KiCAD"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
     },
     {
-      "language": "Urdu",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "Arabic",
-      "fluency": "Proficient",
-      "icon": ""
-    },
-    {
-      "language": "Chinese",
-      "fluency": "Proficient",
-      "icon": ""
+      "name": "Procol Engineering",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "UDP",
+        "WebRTC",
+        "BLE Stack",
+        "ESP-NOW"
+      ]
     }
   ],
   "interests": [
