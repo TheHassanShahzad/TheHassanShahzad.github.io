@@ -15,7 +15,6 @@ CampNav is an innovative indoor navigation solution designed to transform the wa
 ---
 
 ## Table of Contents
-
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
 - [The Challenge: Problem Statement](#the-challenge-problem-statement)
