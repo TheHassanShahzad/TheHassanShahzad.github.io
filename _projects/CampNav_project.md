@@ -10,6 +10,12 @@ category: Completed
 
 # CampNav: Revolutionizing Campus Navigation with AR & Real-Time AI
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://youtube.com/shorts/APUYnpqRj5w?feature=shared" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 CampNav is an innovative indoor navigation solution designed to transform the way students, faculty, and visitors navigate modern university campuses. By leveraging Augmented Reality (AR), real-time AI-powered voice assistance, and continuously updated campus data, CampNav replaces outdated maps and confusing signage with an intuitive, interactive experience.
 
 ---
