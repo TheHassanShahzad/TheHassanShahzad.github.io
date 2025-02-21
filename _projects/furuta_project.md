@@ -4,7 +4,7 @@ title: Furuta Pendulum
 description: LQR control of a Furuta Pendulum in Gazebo
 img: assets/img/furuta/upright.png
 importance: 2
-category: School
+category: Completed
 ---
 
 # Furuta Pendulum Project

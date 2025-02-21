@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Furuta Pendulum
-description: LQR control of a Furuta Pendulum in Gazebo
+title: CampNav
+description: An AI powered Campus guide with real time speech to speech and in browser XR with Visual SLAM navigation
 img: assets/img/CampNav/campnav_thumbnail.png
-importance: 2
-category: School
+importance: 1
+category: Completed
 ---
 
 
