@@ -13,8 +13,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-# Hassan Shahzad
-
 At **12**, I was digging through bins for plastic scraps, spray-painting them, and hot-gluing together my first **robots**. What started as an obsession with **150-gram antweight combat robots** (those tiny warriors that had to fit in a 10cm cube) has become my life's work. I loved everything about them: the **design precision**, the **competitive edge**, the perfect blend of **engineering and strategy**.
 
 Over the next **8 years**, I built everything from **robot dogs** to **SLAM-navigational robots** that could map and navigate unknown environments. I developed **RoboPipe** and other robotic software to enhance **human-robot interaction**, created **LLM agents** that enable **speech-to-action** in simulated robots, and worked extensively with **robot teleoperation**. By the time I reached **UCL** for my **Robotics and AI degree**, I already had nearly a decade of hands-on experience building, programming, and perfecting autonomous systems.
