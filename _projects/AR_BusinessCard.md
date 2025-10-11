@@ -8,10 +8,12 @@ category: Completed
 ---
 
 <div class="col-sm mt-3 mt-md-0">
-  <blockquote class="reddit-card" data-card-created="true">
-    <a href="https://www.reddit.com/r/robotics/s/jDEJOV4BPL">Check out my post on Reddit</a>
-  </blockquote>
-  <script async src="https://embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+    <blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="740">
+        <a href="https://www.reddit.com/r/robotics/comments/1hb1636/put_an_ar_marker_behind_my_business_card_to_show/">
+            Put an AR marker behind my business card to show off my projects
+        </a>
+    </blockquote>
+    <script async src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 </div>
 
 # My Journey into Web-Based AR
