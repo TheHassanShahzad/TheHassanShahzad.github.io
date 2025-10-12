@@ -13,6 +13,12 @@ AR Dining represents my first entrepreneurial venture into commercial augmented 
 
 > **= [Explore AR Dining repositories on GitHub](https://github.com/ar-dining)**
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AR_Dining/all_food.png" title="scanned_food" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
+
 ## The Problem: Bridging Expectation and Reality
 
 Through extensive market research and customer interviews, we identified a fundamental disconnect in the dining experience: **customers were consistently disappointed by food that didn't match their expectations**. Our observations revealed a common behavior pattern - diners frequently look around restaurants to see what others are eating before making their ordering decisions.
@@ -49,6 +55,12 @@ The foundation of our AR experience required high-quality 3D models of actual re
 
 Our biggest technical hurdle emerged from an unexpected source: **restaurant dishware**. Traditional photogrammetry algorithms struggle with thin, plain ceramic plates commonly used in restaurants, resulting in incomplete mesh reconstruction with holes where the plate should be.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AR_Dining/holes.png" title="scanned_food" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
+
 **Innovation: Dot-Pattern Algorithm**
 ```
 Challenge: Photogrammetry fails on plain ceramic surfaces
@@ -66,6 +78,16 @@ This process provided invaluable experience with:
 - **Blender** - 3D modeling and mesh processing
 - **Python/bpy** - Custom Blender extensions and automation
 - **Computer vision** - Dot detection and texture manipulation algorithms
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AR_Dining/1.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AR_Dining/2.png" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
 
 ### Stage 2: Asset Optimization Pipeline
 
@@ -241,6 +263,12 @@ Despite market challenges, AR Dining delivered significant technical innovations
  **Production-Ready Optimization Pipeline** - Achieved web-suitable file sizes while maintaining quality
  **Cross-Platform AR Framework** - Stable tracking across diverse restaurant environments
  **Scalable Hosting Architecture** - Supported multiple concurrent restaurant deployments
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AR_Dining/nfc.png" title="nfc_beacons" class="img-fluid rounded z-depth-1 zoomable=true" %}
+    </div>
+</div>
 
 ### Business Impact
 
