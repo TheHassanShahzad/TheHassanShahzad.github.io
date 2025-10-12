@@ -168,12 +168,6 @@ Market testing revealed an important insight: while AR menus were technically im
 
 This became our primary market entry strategy: introduce accessible 3D menus first, then evolve customers toward full AR experiences as their comfort with 3D interfaces developed.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/AR_Dining/3d_menu_demo.png" title="3D Menu Interface" class="img-fluid rounded z-depth-1 zoomable=true" %}
-    </div>
-</div>
-
 ## Advanced Research and Development
 
 ### Gaussian Splats: Next-Generation Food Scanning
@@ -214,12 +208,6 @@ AR Dining successfully deployed solutions for several London and Manchester esta
 - **My Peshawar** - Traditional Pakistani cuisine showcase
 
 Each deployment provided valuable insights into restaurant operations, customer behavior, and technical requirements for production AR systems.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/AR_Dining/restaurant_deployment.png" title="Restaurant AR Menu Deployment" class="img-fluid rounded z-depth-1 zoomable=true" %}
-    </div>
-</div>
 
 ## Technical Architecture
 
@@ -293,6 +281,6 @@ The technologies and methodologies developed for AR Dining continue to influence
 ---
 
 **Project Repository**: [github.com/ar-dining](https://github.com/ar-dining)
+**Webpage**: [See the page](https://ar-dining.github.io)
 **Company**: Silkun Innovations
-**Timeline**: 2022-2023
 **Technologies**: Mattercraft, Blender, Python, WebGL, Photogrammetry
