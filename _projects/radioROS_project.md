@@ -4,7 +4,7 @@ title: radioROS
 description: A Universal Robot controller using an RC transmitter
 img: assets/img/radioROS/type_c_side.jpg
 importance: 1
-category: Completed
+category: Hardware
 ---
 
 radioROS is my solution to controlling mobile robots in simlation and in real life. Built upon the ROS2 framework, it allows for universal compatibillity with all robots ported to ROS. This was made catered to researchers and during the testing stage for robots to save time having to setup a robust controller that works over the internet when testing the robot outdoors. Alternatively the popular choice is to remote SSH into the computer and control it but with an unstable/weak WiFi proves this method to be very limited and dangerous

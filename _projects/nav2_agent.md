@@ -4,7 +4,7 @@ title: LLM Agent control of a Autonomous Robot
 description: A Generalized software for LLM's to control Autonomous Robots using Langchain and webRTC based Realtime Communication
 img: assets/img/nav2_agent/house.png
 importance: 2
-category: Completed
+category: Software
 ---
 
 ## Overview

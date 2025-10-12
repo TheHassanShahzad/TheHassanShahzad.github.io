@@ -4,7 +4,7 @@ title: AR Business Card
 description: A Custom Web XR Experience To Showcase my Robotic Projects
 img: assets/img/AR_BusinessCard/best.gif
 importance: 2
-category: Completed
+category: Software
 ---
 
 <div class="col-sm mt-3 mt-md-0">

@@ -4,7 +4,7 @@ title: RoboPipe
 description: Control Simulated Robot Arms with just a Hand and a Laptop Webcam
 img: assets/img/RoboPipe/long_thumbnail.png
 importance: 2
-category: Completed
+category: Software
 ---
 
 <div class="col-sm mt-3 mt-md-0">

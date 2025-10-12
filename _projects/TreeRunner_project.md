@@ -4,7 +4,7 @@ title: TreeRunner
 description: A Tree Climbing robot capable of Branch Avoidance
 img: assets/img/TreeRunner/rendered_front.jpg
 importance: 3
-category: Completed
+category: Hardware
 ---
 
 At the end of my first year at Robotics and AI @ UCL we had a term 3 project challenge which was to make a tree climbing robot. It was tasked to go up, deploy a sensor and come back down. The trees to climb varied in difficiulty; the simplest being a pipe of fixed diameter and the hardest was a wooden pole with varying diameter and branches.

@@ -4,7 +4,7 @@ title: HiRi
 description: Physical MCP For IoT devices
 img: assets/img/HiRi/main.jpg
 importance: 2
-category: Completed
+category: Software
 ---
 # HiRi v1: Speech-to-Action IoT Infrastructure
 ## Complete Technical Documentation & Analysis

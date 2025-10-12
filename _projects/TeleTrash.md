@@ -4,7 +4,7 @@ title: Teleoperated Trash Picking Robot
 description: A low latency robot that is driven with akeyboard but controlled with HAND gestures using google mediapipe
 img: assets/img/TeleTrash/main.jpg
 importance: 2
-category: Completed
+category: Hardware
 ---
 
 # SmartGreen2: A Teleoperated Trash Picking Robot

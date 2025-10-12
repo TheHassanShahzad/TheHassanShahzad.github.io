@@ -4,7 +4,7 @@ title: CampNav
 description: An AI powered Campus guide with real time speech to speech and in browser XR with Visual SLAM navigation
 img: assets/img/CampNav/campnav_thumbnail.png
 importance: 2
-category: Completed
+category: Software
 ---
 
 
