@@ -1,0 +1,223 @@
+{
+  "basics": {
+    "name": "Hassan Shahzad",
+    "label": "AI/XR Engineer | Full-Stack Developer | Autonomous Systems",
+    "email": "hshahxr@gmail.com",
+    "phone": "+447918800632",
+    "url": "https://hassan-xr.com",
+    "location": {
+      "city": "London",
+      "countryCode": "UK"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://linkedin.com/in/hassan-shahzad",
+        "username": "@Hassan Shahzad"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/TheHassanShahzad",
+        "username": "@TheHassanShahzad"
+      }
+    ],
+    "image": "https://hassan-xr.com/assets/img/prof_pic.jpg"
+  },
+  "education": [
+    {
+      "institution": "University College London (UCL)",
+      "area": "Robotics and AI",
+      "studyType": "MEng (Integrated Master's)",
+      "startDate": "2023-09",
+      "endDate": "2027-06",
+      "score": "Predicted First Class",
+      "courses": [
+        "Machine Learning & Neural Networks",
+        "Computer Vision & AR/VR",
+        "Autonomous Systems",
+        "Real-time Embedded Systems"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Silkun Innovations",
+      "position": "Founder & Software Engineer",
+      "startDate": "2025-01",
+      "highlights": [
+        "Founded AI startup developing solutions for hospitality sector with computer vision and automated content generation",
+        "Scaled ProduDex to 1000+ global users across 15 suppliers using advanced RAG systems and OCR pipelines",
+        "Deployed commercial AR applications across multiple London and Manchester restaurant establishments"
+      ]
+    },
+    {
+      "company": "AntoBot - Agricultural Robotics",
+      "position": "Software Engineer (Industry Placement)",
+      "startDate": "2024",
+      "highlights": [
+        "Developed autonomous navigation stack with Python/C++ for agricultural robots with physics simulation",
+        "Built Flutter mobile app with real-time robot communication and URDF pipeline for 3D model generation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ProduDex - AI Supplier Matchmaking Platform",
+      "url": "https://produdex.com",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Railway",
+        "RAG",
+        "Supabase",
+        "React",
+        "OpenAI API"
+      ],
+      "highlights": [
+        "Built B2B platform serving 1000+ users globally with OCR pipeline processing 45,000+ products from supplier catalogues",
+        "Developed custom RAG agent with dynamic widgets and LLM-powered matchmaking for intelligent supplier recommendations",
+        "Consolidated 5+ communication channels into unified platform with automated supplier outreach system"
+      ]
+    },
+    {
+      "name": "CampNav - AR Indoor Navigation with AI Assistant",
+      "keywords": [
+        "WebXR",
+        "Three.js",
+        "LiveKit",
+        "FastAPI",
+        "Supabase",
+        "A* Pathfinding"
+      ],
+      "highlights": [
+        "Won UCL Saudi Hackathon with browser-based AR navigation using conversational AI and real-time voice integration",
+        "Implemented multi-level pathfinding with accessibility routing and marker-based tracking across mobile devices"
+      ]
+    },
+    {
+      "name": "AR Dining - Commercial AR Menu Platform",
+      "url": "https://ar-dining.com",
+      "keywords": [
+        "Mattercraft",
+        "Photogrammetry",
+        "Blender",
+        "Python",
+        "Three.js",
+        "Firebase"
+      ],
+      "highlights": [
+        "Co-founded startup deployed across London/Manchester restaurants with 3D food scanning pipeline",
+        "Engineered automated texture restoration algorithm reducing models from 50MB to 3MB while maintaining quality",
+        "Researched Gaussian Splatting and image-to-3D AI for next-generation food visualization systems"
+      ]
+    },
+    {
+      "name": "Nav2 Agent - LLM-Controlled Robot Navigation",
+      "keywords": [
+        "LangChain",
+        "ROS2",
+        "Nav2",
+        "SLAM",
+        "OpenAI GPT"
+      ],
+      "highlights": [
+        "Developed VLA system enabling natural language robot control through LLM-ROS2 integration",
+        "Built coordinate translation engine mapping conversational commands to autonomous navigation actions"
+      ]
+    },
+    {
+      "name": "ARiOT - Decentralized AR Protocol",
+      "keywords": [
+        "C",
+        "ESP32-C6",
+        "BLE 5",
+        "FreeRTOS",
+        "WebXR"
+      ],
+      "highlights": [
+        "Developing decentralized AR protocol using BLE Extended Advertising eliminating centralized databases",
+        "Engineered ESP-IDF firmware with JSON state broadcasting for proximity-based AR interactions"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "ROS2 for Beginners - Level 1 & 2",
+      "date": "2024-03",
+      "issuer": "Udemy - Robotics Back-End",
+      "url": "https://www.udemy.com/certificate/UC-ros2-beginners"
+    },
+    {
+      "name": "Deep Learning Prerequisites: The Numpy Stack in Python",
+      "date": "2024-02",
+      "issuer": "Udemy - Lazy Programmer Inc.",
+      "url": "https://www.udemy.com/certificate/UC-numpy-stack"
+    },
+    {
+      "name": "Data Science: Deep Learning and Neural Networks in Python",
+      "date": "2024-04",
+      "issuer": "Udemy - Lazy Programmer Inc.",
+      "url": "https://www.udemy.com/certificate/UC-deep-learning"
+    },
+    {
+      "name": "ROS2 Nav2 Stack - SLAM and Navigation",
+      "date": "2024-05",
+      "issuer": "Udemy - Edouard Renard",
+      "url": "https://www.udemy.com/certificate/UC-nav2-slam"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "name": "AI/ML",
+      "keywords": [
+        "LangChain",
+        "RAG Systems",
+        "Computer Vision",
+        "OpenAI API",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "AR/XR",
+      "keywords": [
+        "WebXR",
+        "Three.js",
+        "Zappar",
+        "Photogrammetry",
+        "3D Optimization"
+      ]
+    },
+    {
+      "name": "Web/Mobile",
+      "keywords": [
+        "React",
+        "Next.js",
+        "FastAPI",
+        "Flutter",
+        "Node.js",
+        "Railway"
+      ]
+    },
+    {
+      "name": "Systems",
+      "keywords": [
+        "ROS2",
+        "Docker",
+        "Supabase",
+        "Firebase",
+        "ESP32",
+        "BLE",
+        "FreeRTOS"
+      ]
+    }
+  ]
+}
