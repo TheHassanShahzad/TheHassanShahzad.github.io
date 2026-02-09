@@ -2,7 +2,7 @@
 layout: page
 title: A24
 description: An Open Source Autonomous SLAM robot for teaching and research based on ROS2, Nav2 and slam_toolbox
-img: assets/img/A24/best.jpg
+img: assets/img/A24/a24.png
 importance: 3
 category: Hardware 
 ---
